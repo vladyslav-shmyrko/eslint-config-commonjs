@@ -1,0 +1,37 @@
+{
+  "name": "config-commonjs-eslint",
+  "version": "1.0.0",
+  "author": "Vladyslav Shmyrko <vladyslav0496@gmail.com",
+  "description": "ESLint config for common node js projects",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "linter",
+    "config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladyslav-shmyrko/eslint-config-commonjs.git"
+  },
+  "homepage": "https://github.com/vladyslav-shmyrko/eslint-config-commonjs.git",
+  "main": "index.js",
+  "files": [
+    "rules/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "lint": "eslint . && prettier --check \"**/*.js\"",
+    "fmt": "prettier --write \"**/*.js\"",
+    "test": "npm run -s lint"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.0"
+  }
+}
