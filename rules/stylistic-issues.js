@@ -133,5 +133,6 @@ module.exports = Object.freeze({
         enforceForArrowConditionals: false,
       },
     ],
+    'no-multiple-empty-lines': ['error', { max: 2 }],
   }),
 });
