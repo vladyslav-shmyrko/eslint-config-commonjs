@@ -4,6 +4,6 @@
 
 1. Install ESLint, this config and required plugins:
     ```console
-   npm i --save-dev eslint config-commonjs-eslint
+   npm i --save-dev eslint eslint-config-commonjs
     ```
-2. Add `"extends": "config-commonjs-eslint" to your .eslintrc.*`.
+2. Add `"extends": "eslint-config-commonjs" to your .eslintrc.*`.
