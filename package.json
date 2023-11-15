@@ -1,6 +1,6 @@
 {
   "name": "config-commonjs-eslint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Vladyslav Shmyrko <vladyslav0496@gmail.com",
   "description": "ESLint config for common node js projects",
   "keywords": [
